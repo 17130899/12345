@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="nalog.nak.test5" time="0.004" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="nalog.nak.test5" time="0" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="9"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Админ\git\1231\target\test-classes;C:\Users\Админ\git\1231\target\classes;C:\Users\Админ\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Админ\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Ainur\git\12345\target\test-classes;C:\Users\Ainur\git\12345\target\classes;C:\Users\Ainur\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Ainur\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value="Asia/Yekaterinburg"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="user.country" value="RU"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 8.1"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Админ\AppData\Local\Temp\surefire4556649388364079335\surefirebooter1111436305291614086.jar C:\Users\Админ\AppData\Local\Temp\surefire4556649388364079335 2019-05-03T13-09-15_544-jvmRun1 surefire7663769896633823473tmp surefire_08577369717418056709tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\Админ\git\1231\target\test-classes;C:\Users\Админ\git\1231\target\classes;C:\Users\Админ\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Админ\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk9\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ainur\AppData\Local\Temp\surefire7117868623898316223\surefirebooter9943875803118099712.jar C:\Users\Ainur\AppData\Local\Temp\surefire7117868623898316223 2019-05-09T22-43-18_923-jvmRun1 surefire14616125580318074024tmp surefire_017074463282279192376tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Ainur\git\12345\target\test-classes;C:\Users\Ainur\git\12345\target\classes;C:\Users\Ainur\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Ainur\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\Админ"/>
+    <property name="user.home" value="C:\Users\Ainur"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="basedir" value="C:\Users\Админ\git\1231"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk9"/>
     <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Ainur\git\12345"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Админ\AppData\Local\Temp\surefire4556649388364079335\surefirebooter1111436305291614086.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ainur\AppData\Local\Temp\surefire7117868623898316223\surefirebooter9943875803118099712.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_201-b09"/>
-    <property name="user.name" value="Админ"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="user.name" value="Ainur"/>
     <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.version" value="6.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1251"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\Админ\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\7272~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_201"/>
-    <property name="user.dir" value="C:\Users\Админ\git\1231"/>
+    <property name="localRepository" value="C:\Users\Ainur\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ainur\AppData\Local\Temp\"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="user.dir" value="C:\Users\Ainur\git\12345"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-10.0.2/bin/server;C:/Program Files/Java/jdk-10.0.2/bin;%M2_HOME%\bin;C:\Program Files\Java\jdk-10.0.2\bin;C:\Users\Админ\AppData\Local\Microsoft\WindowsApps;C:\Program Files\maven\bin;;C:\Users\Админ\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk9\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\nodejs.exe;C:\HashiCorp\Vagrant\bin;C:\Program Files\curl\usr\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Users\Ainur\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Ainur\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\nodejs\npm;C:\Program Files\curl\usr\bin;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Windows\System32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.201-b09"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.class.version" value="53.0"/>
   </properties>
   <testcase name="testTax" classname="nalog.nak.test5" time="0"/>
 </testsuite>

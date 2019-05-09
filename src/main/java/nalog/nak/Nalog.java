@@ -223,7 +223,7 @@ JLabel.CENTER - выравнивание по центру
 JLabel.LEFT - выравнивание по левому краю
 JLabel.RIGHT - выравнивание по правому краю
 */
-label_1 = new JLabel("Вычитать налог для:", JLabel.LEFT); 
+label_1 = new JLabel("Вычислить налог для:", JLabel.LEFT); 
 label_2 = new JLabel("Резидент", JLabel.LEFT); 
 label_3 = new JLabel("Сумма налога, руб.", JLabel.LEFT); 
 label_4 = new JLabel("Сумма на руки, руб.", JLabel.LEFT); 
@@ -236,8 +236,9 @@ sum_n = new JLabel("", JLabel.CENTER);
 sum = new JLabel("", JLabel.CENTER); 
 /*Обозначаем что переменные calc,calc2  являются объектом
  *  JButton в скобках - надпись на кнопке*/
-calc = new JButton("Рассчитать"); 
-calc2 = new JButton("В меню"); 
+calc = new JButton("В меню");
+calc2 = new JButton("Рассчитать");
+calc2.setBackground(Color.GREEN);
 /* текстовое поле в которое пользователь вводит данные */
 sum_ok = new JTextField(); 
 /*выравнивание текста по центру*/
@@ -403,7 +404,7 @@ sum.setText("");
 } 
 }); 
 /*Обработка событий при нажатии на кнопку calc2*/
-calc2.addActionListener(new ActionListener() 
+calc.addActionListener(new ActionListener() 
 { 
 public void actionPerformed(ActionEvent e) 
 /*Закрывает form2 но не закрывает программу*/
@@ -419,7 +420,7 @@ public void actionPerformed(ActionEvent e)
 	предназначенный для обработки событий "ActionEvent".
 	тело интерфейса указывается ниже после фигурной скобки "{"
 	*/ 
-calc.addActionListener(new 
+calc2.addActionListener(new 
 ActionListener() 
 { 
 	/* 	ActionListener" имеет метод "actionPerformed" объекта "ActionEvent", 
@@ -639,34 +640,35 @@ label_n17 = new JLabel("", JLabel.LEFT);
 label_n18 = new JLabel("Иное", JLabel.LEFT); 
 /*Обозначаем что переменные calc,calc2  являются объектом
  *  JButton в скобках - надпись на кнопке*/
-calc3 = new JButton("В меню"); 
-calc4 = new JButton("Изменить"); 
+calc3 = new JButton("В меню");
+calc4 = new JButton("Изменить");
+calc4.setBackground(Color.GREEN);
 /* текстовое поле в которое пользователь вводит данные */
-sum_ok = new JTextField(); 
+sum_ok = new JTextField(Double.toString(a4)); 
 /*выравнивание текста по центру*/
 sum_ok.setHorizontalAlignment(JTextField.CENTER);
 /*установка внутренних отступов для текстового по-ля (2-верхний отступ, 5-левый, 2-нижний, 5-правый)*/
 sum_ok.setMargin(new Insets(2, 5, 2, 5)); 
 /* текстовое поле в которое пользователь вводит данные */
-sum_ok1 = new JTextField(); 
+sum_ok1 = new JTextField(Double.toString(a1)); 
 /*выравнивание текста по центру*/
 sum_ok1.setHorizontalAlignment(JTextField.CENTER); 
 /*установка внутренних отступов для текстового по-ля (2-верхний отступ, 5-левый, 2-нижний, 5-правый)*/
 sum_ok1.setMargin(new Insets(2, 5, 2, 5)); 
 /* текстовое поле в которое пользователь вводит данные */
-sum_ok2 = new JTextField(); 
+sum_ok2 = new JTextField(Double.toString(a)); 
 /*выравнивание текста по центру*/
 sum_ok2.setHorizontalAlignment(JTextField.CENTER); 
 /*установка внутренних отступов для текстового по-ля (2-верхний отступ, 5-левый, 2-нижний, 5-правый)*/
 sum_ok2.setMargin(new Insets(2, 5, 2, 5)); 
 /* текстовое поле в которое пользователь вводит данные */
-sum_ok3 = new JTextField(); 
+sum_ok3 = new JTextField(Double.toString(a2)); 
 /*выравнивание текста по центру*/
 sum_ok3.setHorizontalAlignment(JTextField.CENTER); 
 /*установка внутренних отступов для текстового по-ля (2-верхний отступ, 5-левый, 2-нижний, 5-правый)*/
 sum_ok3.setMargin(new Insets(2, 5, 2, 5)); 
 /* текстовое поле в которое пользователь вводит данные */
-sum_ok4 = new JTextField(); 
+sum_ok4 = new JTextField(Double.toString(a3)); 
 /*выравнивание текста по центру*/
 sum_ok4.setHorizontalAlignment(JTextField.CENTER); 
 /*установка внутренних отступов для текстового по-ля (2-верхний отступ, 5-левый, 2-нижний, 5-правый)*/
@@ -774,7 +776,7 @@ public boolean isValidInput(JTextField jtxt, String description) {
 		 прерывается, и управление прыгает в начало блока catch(err).
 		*/     
         try { 
-        	/*попытка преобразовать текст в целое число   */
+        	/*попытка преобразовать текст в число   */
              double num = Double.parseDouble(jtxt.getText().replace(',','.'));    
            /*если все нормально - возвращаем true*/
             return true; 
